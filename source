@@ -11129,7 +11129,7 @@ addcmd('givetool', {'givetools'}, function(args, speaker)
 		hrp.CFrame = vHRP.CFrame
 		RS:Wait()
 	end
-	execCmd('re')
+	execCmd('reset')
 end)
 
 addcmd('touchinterests', {'touchinterest', 'firetouchinterests', 'firetouchinterest'}, function(args, speaker)
